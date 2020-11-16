@@ -6,21 +6,21 @@ Created on Mon Apr 29 20:32:03 2019
 """
 
 #-------------- 從cmd執行該程式，並帶入參數---------------------
-#import argparse 
-#p=argparse.ArgumentParser()
-#p.add_argument('--sub',required=False,default='')
-#p.add_argument('--url',required=False,default='')
-#p.add_argument('--name',required=False,default='')
-#
-#args=p.parse_args()
-#
-#sub = args.sub
-#url = args.url
-#name = args.name
+import argparse 
+p=argparse.ArgumentParser()
+p.add_argument('--sub',required=False,default='')
+p.add_argument('--url',required=False,default='')
+p.add_argument('--name',required=False,default='')
 
-sub = "mp4"
-url = "https://www.youtube.com/watch?v=J4k-AN74mz4"
-name = "132"
+args=p.parse_args()
+
+sub = args.sub
+url = args.url
+name = args.name
+
+#sub = "mp4"
+#url = "https://www.youtube.com/watch?v=oGOTxf0CUDs"
+#name = "132"
 #--------------------------------------------------------------
 
 from pytube import YouTube

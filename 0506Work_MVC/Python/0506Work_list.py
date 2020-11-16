@@ -15,6 +15,9 @@ args=p.parse_args()
 
 sub = args.sub
 url = args.url
+
+#url = 'https://www.youtube.com/watch?v=2-9v34Bhlww&list=PLZHTcUWHH9ZOcnz2Kwjb-c2kJUry_HUxr'
+#sub = 'mp4'
 #------------------------------------------------------------
 
 url = url.replace('666=','&list=') #將'666='換成'list='，因為'&'在cmd裏頭會出事
@@ -29,11 +32,12 @@ path = r'C:\Users\hankh\Desktop\ASP_NET_MVC\0506Work_MVC\0506Work_MVC\Download'
 
 html = requests.get(url)
 resl = re.findall(r'/watch[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%?=~_|]',html.text)
-                           
+             
 videourlList=[]
 for temurl in resl:
     if 'list=' and 'index=' in temurl: 
         if temurl not in videourlList: #剔除重複的
+            print(temurl)
             videourlList.append(temurl)
 
 n = 1
