@@ -18,8 +18,7 @@ _大四下_友鋒課作業_
   | **後端**   |  1. 執行`cmd`呼叫對應的python檔案，並接收回傳值，丟回前端。</br>2. Client端可從Server端下載影片或音檔。  |  [程式碼](https://github.com/hank444tw/0506Work_MVC/blob/master/0506Work_MVC/Controllers/HomeController.cs) |
   | **python** |  1. 分為兩個檔案，分別針對單支影片以及播放清單。</br>2. 使用`pytube 9.7.1`套件，下載影片自Server。</br>3. 播放清單先`網頁爬蟲`，找到所有影片連結。</br>4. 若為mp3，則使用`moviepy.editor`轉檔為mp3。  |   [程式碼](https://github.com/hank444tw/0506Work_MVC/blob/master/0506Work_MVC/Python/0506Work.py) </br> [程式碼](https://github.com/hank444tw/0506Work_MVC/blob/master/0506Work_MVC/Python/0506Work_list.py) |     
 
-* 網站截圖  
- 
+* 網站截圖
 ![image](https://github.com/hank444tw/0517Work_MVC/blob/master/Demo1.JPG "首頁")   
 
 ![image](https://github.com/hank444tw/0517Work_MVC/blob/master/Demo2.jpg "mp4下載")    
