@@ -1,12 +1,8 @@
 # 線上YT下載網站 
-_大四下_友鋒課作業_     
+_大四下_友鋒課作業_       
 
-45646465465
-===========  
-
-65465465
---------     
-
+* 功能說明
+  * 可複製Youtube影片連結，下載`mp4`或`mp3`檔案    
 
 ![image](https://github.com/hank444tw/0517Work_MVC/blob/master/Demo1.JPG "首頁")
 ![image](https://github.com/hank444tw/0517Work_MVC/blob/master/Demo2.jpg "mp4下載")
