@@ -12,10 +12,10 @@ _大四下_友鋒課作業_
   4. python  
   
 * 程式架構
-  |        | 說明 | 檔案 |
+  |        | 說明 |檔案 |
   |------- |:-----:|------:|
   | 前端   |  只有一個頁面，使用`Razor語法`判斷後端是否有傳送YT影片資訊。</br>JS顯示Loading遮罩效果  |  [程式碼](https://github.com/hank444tw/0506Work_MVC/blob/master/0506Work_MVC/Views/Home/NFU.cshtml) |
-  | 後端   |  執行cmd呼叫對應的python檔案，並接收回傳值，丟回前端  |  [程式碼](https://github.com/hank444tw/0506Work_MVC/blob/master/0506Work_MVC/Controllers/HomeController.cs) |
+  | 後端   |  執行`cmd`呼叫對應的python檔案，並接收回傳值，丟回前端  |  [程式碼](https://github.com/hank444tw/0506Work_MVC/blob/master/0506Work_MVC/Controllers/HomeController.cs) |
   | python |  分為兩個檔案，分別針對單支影片以及播放清單。使用`pytube 9.7.1`。</br>播放清單先網頁爬蟲，找到所有影片連結。  |   [程式碼](https://github.com/hank444tw/0506Work_MVC/blob/master/0506Work_MVC/Python/0506Work.py) </br> [程式碼](https://github.com/hank444tw/0506Work_MVC/blob/master/0506Work_MVC/Python/0506Work_list.py) |
  
 
