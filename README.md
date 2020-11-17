@@ -5,7 +5,7 @@ _大四下_友鋒課作業_
   1. 透過Youtube影片連結，下載`mp4`或`mp3`檔案
   2. 可下載`Youtube播放清單`    
  
-*  使用技術
+* 使用技術
   1. ASP.NET MVC
   2. C#
   3. javascript
