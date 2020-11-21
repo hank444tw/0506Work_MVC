@@ -5,7 +5,11 @@
 * 功能說明
   1. 透過Youtube影片連結，下載`mp4`或`mp3`檔案
   2. 可下載`Youtube播放清單`    
- 
+
+* 開發工具
+  1. Visual Studio 2017
+  2. Spyder(Python3.7)
+
 * 使用技術
   1. ASP.NET MVC
   2. C#
